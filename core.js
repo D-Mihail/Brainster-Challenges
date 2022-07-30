@@ -4,11 +4,9 @@ console.log(letters);
 
 // Na klik, ako e true da prodolzhi so golemi bukvi, ako e false so mali
 
-const checkbox = document.querySelector("#caps").checked;
+const checkbox = document.querySelector("#caps").checked = false;
 console.log(checkbox);
 const icon = document.querySelector("i");
-
-
 
 letters.forEach((e) => {
   e.addEventListener("click", () => {
@@ -32,10 +30,17 @@ letters.forEach((e) => {
       const row = document.createElement("br");
       paragraph.appendChild(row);
       written.push(row);
+    } else if (e === "Caps Lock") {
+      checkbox === false ? (checkbox = true) : (checkbox = false);
+      console.log(checkbox);
     } else {
+      // TRY ONE
       checkbox
-        ? (paragraph.innerHTML += e.innerHTML.toUpperCase)
+        ? (paragraph.innerHTML += e.innerHTML.toLowerCase)
         : (paragraph.innerHTML += e.innerHTML);
+
+      // TRY TWO
+
       //     if (checkbox = false) {
       //         icon.classList.add("checkbox-round")
       //   paragraph.innerHTML += e.innerHTML;
