@@ -1,7 +1,6 @@
 .bg-img {
   background: url("./images/img.jpeg") no-repeat bottom;
   background-attachment: fixed;
-  /* position: relative; */
   min-height: 100vh;
 }
 .half-screen {
