@@ -1,0 +1,36 @@
+
+.bg-img {
+    background: url("./images/img.jpeg") no-repeat bottom;
+    background-attachment: fixed;
+    /* position: relative; */
+    min-height: 100vh;
+}
+.half-screen {
+    min-height: 50vh;
+}
+.bg-trans {
+    background-color: rgba(116, 114, 114, 0.1);
+    position: fixed;
+    left: 15px;
+    right: 15px;
+    bottom: 0px;
+
+}
+.btn {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transition: all 0.2s ease-in-out !important;
+    border-color: black !important;
+}
+.btn:hover {
+    border-color: black;
+    transform: scale(1.1);
+}
+/* .btn::after {
+    transform: scale(1);
+} */
+
+
+
+.checkbox-round {
+color: lightgreen !important;
+}
