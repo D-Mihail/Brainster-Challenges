@@ -24,6 +24,7 @@
   transform: scale(1.1);
 }
 
-.checkbox-round {
-  color: lightgreen !important;
+.checkbox-green {
+  background-color: lightgreen !important;
+  color: black !important;
 }
