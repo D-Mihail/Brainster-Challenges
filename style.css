@@ -22,8 +22,10 @@
   border-color: black;
   transform: scale(1.1);
 }
-
 .checkbox-green {
   background-color: lightgreen !important;
   color: black !important;
+}
+#show {
+  position: relative;
 }
